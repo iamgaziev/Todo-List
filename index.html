@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo">
+        <h1 class="h1">TODO</h1>
+        <button class="plus">+</button>
+      </div>
+      <div class="section">
+        <div>
+          <div class="work">
+            <img src="/images/Ellipse.png" alt="" />
+            <h1>work</h1>
+          </div>
+          <div class="work">
+            <img src="/images/Ellipse2.png" alt="" />
+            <h1>study</h1>
+          </div>
+          <div class="work">
+            <img src="/images/Ellipse3.png" alt="" />
+            <h1>entertainment</h1>
+          </div>
+          <div class="work">
+            <img src="/images/Ellipse4.png" alt="" />
+            <h1>family</h1>
+          </div>
+        </div>
+        <div class="box"></div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 class="t">TASK</h1>
+          <p>Title</p>
+          <input type="text" placeholder="Placeholder text" class="inp1" />
+          <p>Description</p>
+          <input type="text" placeholder="Placeholder text" class="inp2" />
+          <br />
+          <button class="btnAdd">Add</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </div>
+      <div id="myModall" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">         
+          <p>Edit User</p> 
+          <input type="text" class="input1" placeholder="Edit Title"> <br>
+          <input type="text" class="input2" placeholder="Edit Title"> <br>
+          <button class="ok">Ok</button>
+          <button class="Cancel">Cancel</button>
+        </div>
+      
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

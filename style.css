@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.h1{
+    width: 202px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #808080;
+}
+.plus{
+    width: 6%;
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.plus:hover{
+    background-color: #808080;
+    border-radius: 20px;
+    color: white;
+}
+.work{
+    width: 30%;
+    display: flex;
+    gap: 24px;
+    color: #808080;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  p{
+    margin-bottom: 1%;
+  }
+  .t{
+    margin-bottom: 5%;
+  }
+  .input1{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 5vh;
+  }
+  .input2{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 5vh;
+  }.inp1{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 5vh;
+  }.inp2{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 5vh;
+  }
+  .box{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .section{
+      display: flex;
+      gap: 35px;
+    }
+
+    button{
+      width: 12%;
+    }
+   .card{
+     background-color: #f1e9c5;
+     width: 358.45px;
+     border-radius: 10px;
+     padding: 25px;
+   }
+   .title{
+    margin-bottom: 5%;
+    font-size: 30px;
+   }
+   .www{
+    color: black;
+    text-decoration: line-through;
+   }
+
+   .course{
+    margin-bottom: 20%;
+    font-size: 24px;
+   }
+   .btnAdd{
+    font-size: 14px;
+    width: 45px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 3%;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+   }
+   .cancel{
+    width: 60px;
+    height: 26px;
+    border: 1px solid #2196F3 ;
+    color: #2196F3;
+    background-color: transparent;
+    border-radius: 4px;
+   }
+   .imgDelete{
+    margin-right: 4%;
+   }
+   .imgDelete:hover{
+    background-color: rgb(179, 169, 151);
+    cursor: pointer;
+   }
+   .imgEdit:hover{
+    background-color: rgb(179, 169, 151);
+    cursor: pointer;
+   }
+   .inpFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .checkbox{
+    margin-left: 80%;
+    cursor: pointer;
+  }
+
+
+
+
+   
+
